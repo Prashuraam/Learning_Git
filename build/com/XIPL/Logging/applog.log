@@ -1,0 +1,14 @@
+2016-12-12 16:04:32,744 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-12-12 16:04:32,750 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-12-12 16:04:32,754 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-12-12 16:04:32,754 - rootLogger - INFO - Execution started for SuiteOneBase.
+2016-12-12 16:04:32,834 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-12-12 16:04:32,835 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-12-12 16:04:32,837 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-12-12 16:04:44,442 - rootLogger - INFO - Firefox Driver Instance loaded successfully.
+2016-12-12 16:04:44,786 - rootLogger - INFO - WebBrowser is instantiated
+2016-12-12 16:05:00,024 - rootLogger - INFO - WebBrowser is Launched
+2016-12-12 16:05:02,101 - rootLogger - INFO - Clicked on Sign in Button
+2016-12-12 16:05:03,917 - rootLogger - INFO - UserName Entered
+2016-12-12 16:05:04,721 - rootLogger - INFO - Password Entered
+2016-12-12 16:05:05,178 - rootLogger - INFO - Clicked on SignIn Submit Button

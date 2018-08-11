@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cinch Regression Suite]">
+  <test name="TestCase 017(failed)">
+    <classes>
+      <class name="com.XIPL.SuiteOne.TC002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkCaseToRun"/>
+          <include name="closeBrowser"/>
+          <include name="reporterDataResults"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- com.XIPL.SuiteOne.TC002 -->
+      <class name="com.XIPL.SuiteOne.TC017">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="startup"/>
+          <include name="SuiteOneCaseTwoTest" invocation-numbers="1 2 3 4 5 6 7"/>
+          <include name="reporterDataResults"/>
+          <include name="tearDown"/>
+          <include name="checkCaseToRun"/>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- com.XIPL.SuiteOne.TC017 -->
+    </classes>
+  </test> <!-- TestCase 017(failed) -->
+</suite> <!-- Failed suite [Cinch Regression Suite] -->

@@ -1,0 +1,48 @@
+2018-08-10 20:14:37,656 - rootLogger - INFO - All Excel Files Initialised successfully.
+2018-08-10 20:14:37,656 - rootLogger - INFO - Param.properties file loaded successfully.
+2018-08-10 20:14:41,813 - rootLogger - INFO - Chrome Driver Instance loaded successfully.
+2018-08-10 20:14:42,991 - rootLogger - INFO - WebBrowser is instantiated
+2018-08-10 20:14:48,294 - rootLogger - INFO - WebBrowser is Launched
+2018-08-10 20:14:50,143 - rootLogger - INFO - Launch Password  Value Entered
+2018-08-10 20:14:55,923 - rootLogger - INFO - Clicked on Submt button
+2018-08-10 20:14:57,902 - rootLogger - INFO - Clicked on SignIn button
+2018-08-10 20:14:59,238 - rootLogger - INFO - User Name  Value Entered
+2018-08-10 20:14:59,536 - rootLogger - INFO - Password  Value Entered
+2018-08-10 20:14:59,696 - rootLogger - INFO - Clicked on Signn Button
+2018-08-10 20:15:04,100 - rootLogger - INFO - Clicked on Get a Quote Button at Home Page
+2018-08-10 20:15:04,100 - rootLogger - INFO - Clicked on Get A New Quote Button
+2018-08-10 20:15:05,528 - rootLogger - INFO - Select Prod 1
+2018-08-10 20:15:10,516 - rootLogger - INFO - Practice State Value Alabama Selected Sucessfully
+2018-08-10 20:15:12,889 - rootLogger - INFO - Field_Of_Profession Value Optometry Selected Sucessfully
+2018-08-10 20:15:15,183 - rootLogger - INFO - Employment_Status Value Student Selected Sucessfully
+2018-08-10 20:15:15,461 - rootLogger - INFO - Enter_the_School_name  Value Entered
+2018-08-10 20:15:17,782 - rootLogger - INFO - Anticipated_Month Value June Selected Sucessfully
+2018-08-10 20:15:18,071 - rootLogger - INFO - Anticipated_Year  Value Entered
+2018-08-10 20:15:18,427 - rootLogger - INFO - Effective_Date  Value Entered
+2018-08-10 20:15:18,593 - rootLogger - INFO - Buying for Self
+2018-08-10 20:15:18,821 - rootLogger - INFO - Clicked on Get_My_Quote_Button
+2018-08-10 20:15:39,191 - rootLogger - INFO - Clicked on Click_on_BuyNow_Button
+2018-08-10 20:15:41,637 - rootLogger - INFO - User_Name  Value Entered
+2018-08-10 20:15:41,959 - rootLogger - INFO - Last_Name  Value Entered
+2018-08-10 20:15:42,239 - rootLogger - INFO - Street_Address  Value Entered
+2018-08-10 20:15:42,519 - rootLogger - INFO - City_Nmae  Value Entered
+2018-08-10 20:15:44,715 - rootLogger - INFO - State_name Value AZ Selected Sucessfully
+2018-08-10 20:15:45,264 - rootLogger - INFO - Zip_Code  Value Entered
+2018-08-10 20:15:45,697 - rootLogger - INFO - Clicked on Click_on_I_Agree_to_the_Terms_&_Conditions_Box
+2018-08-10 20:15:45,909 - rootLogger - INFO - Clicked on Click_on_Enter_Payment_Information_Button
+2018-08-10 20:15:47,471 - rootLogger - INFO - Card_Number  Value Entered
+2018-08-10 20:15:47,749 - rootLogger - INFO - Cvv_Number  Value Entered
+2018-08-10 20:15:48,017 - rootLogger - INFO - Expiration_Date  Value Entered
+2018-08-10 20:15:48,317 - rootLogger - INFO - Card_Holder_First_Name  Value Entered
+2018-08-10 20:15:48,561 - rootLogger - INFO - Card_Holder_Last_Name  Value Entered
+2018-08-10 20:15:48,858 - rootLogger - INFO - Street_Address  Value Entered
+2018-08-10 20:15:49,179 - rootLogger - INFO - City_Name  Value Entered
+2018-08-10 20:15:51,454 - rootLogger - INFO - State_Name Value MA Selected Sucessfully
+2018-08-10 20:15:51,875 - rootLogger - INFO - ZipCode  Value Entered
+2018-08-10 20:15:52,052 - rootLogger - INFO - Clicked on Click_on_Buy_policy
+2018-08-10 20:15:54,373 - rootLogger - INFO - Clicked on Click_on_Buy_Policy_in_Alert_Button
+2018-08-10 20:15:58,641 - rootLogger - INFO - Clicked on Download Policy Documents button 
+2018-08-10 20:16:01,827 - rootLogger - INFO - Policy Number Captured
+2018-08-10 20:16:01,831 - rootLogger - INFO - Generated PolicyNumber - 47-QAA-004552-01
+2018-08-10 20:16:02,538 - rootLogger - INFO - Clicked on Policy Download Button
+2018-08-10 20:16:18,712 - rootLogger - INFO - Clicked on Sign Out

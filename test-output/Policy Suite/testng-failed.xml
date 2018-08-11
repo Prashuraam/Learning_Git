@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Policy Suite]">
+  <test name="LOBs(failed)">
+    <classes>
+      <class name="com.XIPL.SuiteOne.EP_R8">
+        <methods>
+          <include name="checkCaseToRun"/>
+          <include name="SuiteOneCaseTwoTest" invocation-numbers="1"/>
+          <include name="checkSuiteToRun"/>
+          <include name="reporterDataResults"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.XIPL.SuiteOne.EP_R8 -->
+    </classes>
+  </test> <!-- LOBs(failed) -->
+</suite> <!-- Failed suite [Policy Suite] -->

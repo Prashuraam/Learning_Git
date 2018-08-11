@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>TestNG:  TestCase 030</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestCase 030</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 31 19:12:42 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>518 seconds (518073 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.XIPL.SuiteTwo.TC030.SuiteOneCaseTwoTest()'><b>SuiteOneCaseTwoTest</b><br>Test class: com.XIPL.SuiteTwo.TC030<br>Parameters: deepak.sharma1@xceedance.com, Deepaksh28, AK, Audiology, Speech and Hearing, Audiologist, Hillsborough, Analyst, Student, Claims Made, 2/15/2017, May, 2018, Yes, 4, No, 2, No, Deepak, Sharma, Doctor, Signature Towers, Gurgaon, AZ, 852, 8763542765, One Time Payment, , C:\Workspace\Project1\screenshots\Failures\TC030\TC030-dataset-1-07-11-2017 3-34-13.png</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.XIPL.SuiteTwo.TC030.SuiteOneCaseTwoTest(TC030.java:172)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1557989809", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1557989809'><pre>java.lang.NullPointerException
+	at com.XIPL.SuiteTwo.TC030.SuiteOneCaseTwoTest(TC030.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>105</td>
+<td>com.XIPL.SuiteTwo.TC030@7e0b0338</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.XIPL.SuiteTwo.TC030.SuiteOneCaseTwoTest()'><b>SuiteOneCaseTwoTest</b><br>Test class: com.XIPL.SuiteTwo.TC030<br>Parameters: deepak.sharma1@xceedance.com, Deepaksh28, CT, Physician Assistant, Anesthesia Administration (All Types), Hillsborough, Analyst, Employed, Occurrence, 2/15/2017, May, 2018, Yes, 1, Yes, 2, Yes, Tripti , Anand, Doctor, Augusta Point, dddd, DC, 478, 9763542765, Installments, Please enter your zip code., C:\Workspace\Project1\screenshots\Failures\TC030\TC030-dataset-2-07-11-2017 3-34-38.png</td>
+<td></td>
+<td>56</td>
+<td>com.XIPL.SuiteTwo.TC030@7e0b0338</td></tr>
+<tr>
+<td title='com.XIPL.SuiteTwo.TC030.SuiteOneCaseTwoTest()'><b>SuiteOneCaseTwoTest</b><br>Test class: com.XIPL.SuiteTwo.TC030<br>Parameters: deepak.sharma1@xceedance.com, Deepaksh28, AK, Nurse Practitioner, Emergency Room, Hillsborough, Analyst, Employed, Claims Made, 2/15/2017, May, 2018, Yes, 4, No, 2, No, Aakash, Nandrajog, Nurse, Sector 16, ccccc, FL, 721, 8763542765, One Time Payment, Please enter your zip code., C:\Workspace\Project1\screenshots\Failures\TC030\TC030-dataset-3-07-11-2017 3-35-02.png</td>
+<td></td>
+<td>57</td>
+<td>com.XIPL.SuiteTwo.TC030@7e0b0338</td></tr>
+<tr>
+<td title='com.XIPL.SuiteTwo.TC030.SuiteOneCaseTwoTest()'><b>SuiteOneCaseTwoTest</b><br>Test class: com.XIPL.SuiteTwo.TC030<br>Parameters: deepak.sharma1@xceedance.com, Deepaksh28, CT, Psychology and Mental Health, Psychologist, Hillsborough, Analyst, Student, Occurrence, 2/15/2017, May, 2018, Yes, 1, Yes, 2, Yes, Aakash, Nandrajog, Nurse, Sector 16, ccccc, FL, 721, 8763542765, Installments, Please enter your zip code., C:\Workspace\Project1\screenshots\Failures\TC030\TC030-dataset-4-07-11-2017 3-35-23.png</td>
+<td></td>
+<td>58</td>
+<td>com.XIPL.SuiteTwo.TC030@7e0b0338</td></tr>
+<tr>
+<td title='com.XIPL.SuiteTwo.TC030.SuiteOneCaseTwoTest()'><b>SuiteOneCaseTwoTest</b><br>Test class: com.XIPL.SuiteTwo.TC030<br>Parameters: deepak.sharma1@xceedance.com, Deepaksh28, AK, Audiology, Speech and Hearing, Audiologist, Hillsborough, Analyst, Self-Employed, Occurrence, 2/15/2017, May, 2018, No, 2, Yes, 3, Yes, Aakash, Nandrajog, Nurse, Sector 16, ccccc, FL, 721, 8763542765, One Time Payment, Please enter your zip code., C:\Workspace\Project1\screenshots\Failures\TC030\TC030-dataset-5-07-11-2017 3-35-44.png</td>
+<td></td>
+<td>62</td>
+<td>com.XIPL.SuiteTwo.TC030@7e0b0338</td></tr>
+<tr>
+<td title='com.XIPL.SuiteTwo.TC030.SuiteOneCaseTwoTest()'><b>SuiteOneCaseTwoTest</b><br>Test class: com.XIPL.SuiteTwo.TC030<br>Parameters: deepak.sharma1@xceedance.com, Deepaksh28, AK, Nurse Practitioner, Obstetrics/Gynecology Related, Hillsborough, Analyst, Employed, Occurrence, 2/15/2017, May, 2018, Yes, 1, Yes, 3, Yes, Aakash, Nandrajog, Nurse, Sector 16, ccccc, FL, 721, 8763542765, Installments, Please enter your zip code., C:\Workspace\Project1\screenshots\Failures\TC030\TC030-dataset-6-07-11-2017 3-36-03.png</td>
+<td></td>
+<td>57</td>
+<td>com.XIPL.SuiteTwo.TC030@7e0b0338</td></tr>
+<tr>
+<td title='com.XIPL.SuiteTwo.TC030.SuiteOneCaseTwoTest()'><b>SuiteOneCaseTwoTest</b><br>Test class: com.XIPL.SuiteTwo.TC030<br>Parameters: deepak.sharma1@xceedance.com, Deepaksh28, AL, Nurse Practitioner, Acute Critical Care, Hillsborough, Analyst, Self-Employed, Occurrence, 2/15/2017, May, 2018, Yes, 1, No, 3, No, Aakash, Nandrajog, Nurse, Sector 16, ccccc, FL, 721, 8763542765, One Time Payment, Please enter your zip code., C:\Workspace\Project1\screenshots\Failures\TC030\TC030-dataset-7-07-11-2017 3-36-21.png</td>
+<td></td>
+<td>60</td>
+<td>com.XIPL.SuiteTwo.TC030@7e0b0338</td></tr>
+<tr>
+<td title='com.XIPL.SuiteTwo.TC030.SuiteOneCaseTwoTest()'><b>SuiteOneCaseTwoTest</b><br>Test class: com.XIPL.SuiteTwo.TC030<br>Parameters: deepak.sharma1@xceedance.com, Deepaksh28, AR, Nurse Practitioner, Correctional Facility, Hillsborough, Analyst, Student, Occurrence, 2/15/2017, May, 2018, Yes, 1, Yes, 3, Yes, Aakash, Nandrajog, Nurse, Sector 16, ccccc, FL, 721, 8763542765, Installments, Please enter your zip code., C:\Workspace\Project1\screenshots\Failures\TC030\TC030-dataset-8-07-11-2017 3-36-45.png</td>
+<td></td>
+<td>58</td>
+<td>com.XIPL.SuiteTwo.TC030@7e0b0338</td></tr>
+</table><p>
+</body>
+</html>
