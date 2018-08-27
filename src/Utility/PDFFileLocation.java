@@ -17,7 +17,7 @@ public class PDFFileLocation extends SuiteBase {
 	
 	{
 		 File theNewestFile = null;
- 	    File dir = new File("C:\\Users\\ukumar1\\Downloads");
+ 	    File dir = new File("C:\\Users\\deepak.sharma1\\Downloads");
  	    
  	    FileFilter fileFilter = new WildcardFileFilter("LossRunReport*." + "pdf");
  	    File[] files = dir.listFiles(fileFilter);
@@ -32,7 +32,7 @@ public class PDFFileLocation extends SuiteBase {
 	public static File PolicyDetailFileLocation(String PolicyNumber)
 	{
 		 File theNewestFile = null;
- 	    File dir = new File("C:\\Users\\ukumar1\\Downloads");
+ 	    File dir = new File("C:\\Users\\deepak.sharma1\\Downloads");
  	    FileFilter fileFilter = new WildcardFileFilter("*"+PolicyNumber+"*" + ".pdf");
  	    File[] files = dir.listFiles(fileFilter);
 
@@ -47,7 +47,7 @@ public class PDFFileLocation extends SuiteBase {
 	public static File CertificateFileLocation()
 	{
 		 File theNewestFile = null;
- 	    File dir = new File("C:\\Users\\ukumar1\\Downloads");
+ 	    File dir = new File("C:\\Users\\deepak.sharma1\\Downloads");
  	    FileFilter fileFilter = new WildcardFileFilter("CertificateOfInsurance"+"*"+".pdf");
  	    File[] files = dir.listFiles(fileFilter);
 

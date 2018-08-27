@@ -31,11 +31,11 @@ public class PolicyDocumentDownload extends TestSuiteBase.SuiteBase{
 					
 					if (Param.getProperty("testBrowser").equalsIgnoreCase("Mozilla"))
 					{
-					Runtime.getRuntime().exec("C:\\Ujjwal kumar\\Cinch Automation\\Project1\\AutoIT\\Script To Download File.exe");
+					Runtime.getRuntime().exec("C:\\Workspace\\Project1\\AutoIT\\Script To Download File.exe");
 					}
 					if(Param.getProperty("testBrowser").equalsIgnoreCase("Chrome"))
 					{
-					Runtime.getRuntime().exec("C:\\Ujjwal kumar\\Cinch Automation\\Project1\\AutoIT\\Script To Download File chrome.exe");
+					Runtime.getRuntime().exec("C:\\Workspace\\Project1\\AutoIT\\Script To Download File chrome.exe");
 					}
 					
 					//(System.getProperty("user.dir")+"//ExcelFiles//TestSuiteList.xlsx")

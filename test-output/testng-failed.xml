@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SuiteOne.TC004">
+      <class name="SuiteOne.TC010">
         <methods>
+          <include name="checkCaseToRun"/>
+          <include name="SuiteOneCaseTwoTest" invocation-numbers="1 2"/>
           <include name="reporterDataResults"/>
           <include name="closeBrowser"/>
-          <include name="SuiteOneCaseTwoTest" invocation-numbers="1 2"/>
-          <include name="checkCaseToRun"/>
           <include name="checkSuiteToRun"/>
         </methods>
-      </class> <!-- SuiteOne.TC004 -->
+      </class> <!-- SuiteOne.TC010 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -21,7 +21,7 @@ private static WebElement element = null;
 			
 		 try
 	 		{
-			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='First Name']//following::div[1]/input")));
+			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='First Name']//following::div/input)[1]")));
 	 		}
 	 	catch(Exception e){
 	 		System.out.println(e);
@@ -35,7 +35,7 @@ private static WebElement element = null;
 			
 		 try
 	 		{
-			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Last Name']//following::div[1]/input")));
+			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='Last Name']//following::div/input)[1]")));
 	 		}
 	 	catch(Exception e){
 	 		System.out.println(e);
@@ -61,7 +61,7 @@ private static WebElement element = null;
 			
 		 try
 	 		{
-			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Business Entity Name (optional)']//following::div[1]/input")));
+			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='Business Entity Name (optional)']//following::div/input)[1]")));
 	 		}
 	 	catch(Exception e){
 	 		System.out.println(e);
@@ -75,7 +75,7 @@ private static WebElement element = null;
 			
 		 try
 	 		{
-			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Mailing Address']//following::div[1]/input")));
+			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='Mailing Address']//following::div/input)[1]")));
 	 		}
 	 	catch(Exception e){
 	 		System.out.println(e);
@@ -89,7 +89,7 @@ private static WebElement element = null;
 			
 		 try
 	 		{
-			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='City']//following::div[1]/input")));
+			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='City']//following::div/input)[1]")));
 	 		}
 	 	catch(Exception e){
 	 		System.out.println(e);
@@ -103,7 +103,7 @@ private static WebElement element = null;
 			
 		 try
 	 		{
-			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='State']//following::div[1]/select")));
+			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='State']/following::Select)[1]")));
 	 		}
 	 	catch(Exception e){
 	 		System.out.println(e);
@@ -120,7 +120,7 @@ private static WebElement element = null;
 			
 		 try
 	 		{
-			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Zip Code']//following::div[1]/input")));
+			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='Zip Code']//following::div/input)[1]")));
 	 		}
 	 	catch(Exception e){
 	 		System.out.println(e);

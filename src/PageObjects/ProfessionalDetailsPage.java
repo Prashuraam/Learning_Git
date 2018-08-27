@@ -201,7 +201,7 @@ private static WebElement element = null;
 			
 		 try
 	 		{
-			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@class='mx-name-textBox7 form__element--field number-type']/input")));
+			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(.//*[text()='Please enter your year of graduation:']/following::div/input)[1]")));
 	 		}
 	 	catch(Exception e){
 	 		System.out.println(e);
@@ -394,7 +394,7 @@ private static WebElement element = null;
 			
 		 try
 	 		{
-			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[text()='Anticipated year of graduation:']//following::div[1]/input")));
+			 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(.//*[text()='Anticipated year of graduation:']//following::div/input)[1]")));
 	 		}
 	 	catch(Exception e){
 	 		System.out.println(e);

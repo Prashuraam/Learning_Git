@@ -279,7 +279,7 @@ private static WebElement element = null;
 	 			
 	 			 try
 	 		 		{
-	 				 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='Sign In']//following::div//*[text()='Get a Quote'])[1]")));
+	 				 element= fwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='Sign In']/following::button)[2]")));
 	 		 		}                                                                                        
 	 		 	catch(Exception e){
 	 		 		System.out.println(e);

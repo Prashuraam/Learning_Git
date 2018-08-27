@@ -190,6 +190,7 @@ public class SuiteBase {
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 	}
 
 	public void closeWebBrowser() {
@@ -292,6 +293,25 @@ public class SuiteBase {
 			throw (e);
 		}
 	}
+	
+	
+	// For sendKeys Operation
+		public static void sendkeysWithOutClear(WebElement element, String objectName, String objectValue) {
+			try {
+				highlightElement(element);
+				element.click();
+				//element.clear();
+				element.sendKeys(objectValue);
+				//element.sendKeys(Keys.TAB);
+				tempTest.log(LogStatus.PASS, "Value Entered in "+objectName+" :: "+objectValue); 
+				Add_Log.info(objectName + "  Value Entered");
+			} catch (Exception e) {
+				TestfailCounter++;
+				tempTest.log(LogStatus.FAIL, "Failed to Entered value in "+objectName+e);
+				Add_Log.info("Failed to enter value to  " + objectName + e.getMessage());
+				throw (e);
+			}
+		}
 
 	// For click of a web element
 	public static void click(WebElement element, String objectName) {

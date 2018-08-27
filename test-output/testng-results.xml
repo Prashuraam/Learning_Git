@@ -2,29 +2,29 @@
 <testng-results skipped="2" failed="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="103726" started-at="2018-08-10T14:44:37Z" finished-at="2018-08-10T14:46:20Z">
+  <suite name="Default suite" duration-ms="381526" started-at="2018-08-24T07:59:16Z" finished-at="2018-08-24T08:05:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="103726" started-at="2018-08-10T14:44:37Z" finished-at="2018-08-10T14:46:20Z">
-      <class name="SuiteOne.TC004">
-        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:SuiteOne.TC004@13deb50e]" name="checkSuiteToRun" is-config="true" duration-ms="1487" started-at="2018-08-10T20:14:35Z" finished-at="2018-08-10T20:14:37Z">
+    <test name="Default test" duration-ms="381526" started-at="2018-08-24T07:59:16Z" finished-at="2018-08-24T08:05:38Z">
+      <class name="SuiteOne.TC010">
+        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:SuiteOne.TC010@13deb50e]" name="checkSuiteToRun" is-config="true" duration-ms="1438" started-at="2018-08-24T13:29:15Z" finished-at="2018-08-24T13:29:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSuiteToRun -->
-        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:SuiteOne.TC004@13deb50e]" name="checkCaseToRun" is-config="true" duration-ms="11113" started-at="2018-08-10T20:14:37Z" finished-at="2018-08-10T20:14:48Z">
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:SuiteOne.TC010@13deb50e]" name="checkCaseToRun" is-config="true" duration-ms="11387" started-at="2018-08-24T13:29:16Z" finished-at="2018-08-24T13:29:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCaseToRun -->
-        <test-method status="PASS" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SuiteOne.TC004@13deb50e]" name="SuiteOneCaseTwoTest" duration-ms="91067" started-at="2018-08-10T20:14:48Z" data-provider="TestData" finished-at="2018-08-10T20:16:19Z">
+        <test-method status="PASS" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SuiteOne.TC010@13deb50e]" name="SuiteOneCaseTwoTest" duration-ms="369343" started-at="2018-08-24T13:29:27Z" data-provider="TestData" finished-at="2018-08-24T13:35:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[durga@26july.com]]>
+                <![CDATA[AcceptanceAdmin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[durga123]]>
+                <![CDATA[Berkshire#12]]>
               </value>
             </param>
             <param index="2">
@@ -34,12 +34,12 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Alabama]]>
+                <![CDATA[Florida]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Optometry]]>
+                <![CDATA[Nurse Practitioner]]>
               </value>
             </param>
             <param index="5">
@@ -59,7 +59,7 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[Student]]>
+                <![CDATA[Employed]]>
               </value>
             </param>
             <param index="9">
@@ -199,7 +199,7 @@
             </param>
             <param index="36">
               <value>
-                <![CDATA[User]]>
+                <![CDATA[CSR]]>
               </value>
             </param>
             <param index="37">
@@ -249,37 +249,52 @@
             </param>
             <param index="46">
               <value>
-                <![CDATA[47-QAA-004551-01]]>
+                <![CDATA[47-QAA-004419-01]]>
               </value>
             </param>
             <param index="47">
               <value>
-                <![CDATA[]]>
+                <![CDATA[ankxceed@test.com]]>
               </value>
             </param>
             <param index="48">
               <value>
-                <![CDATA[C:\Users\deepak.sharma1\Downloads\Derryn Zwart_47-QAA-004550-01_Policy (1).pdf]]>
+                <![CDATA[welcome2018]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Your policy has successfully renewed]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Your policy has successfully renewed]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[47-QAA-004419-02]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:SuiteOne.TC004@13deb50e]" name="reporterDataResults" is-config="true" duration-ms="412" started-at="2018-08-10T20:16:19Z" finished-at="2018-08-10T20:16:19Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:SuiteOne.TC010@13deb50e]" name="reporterDataResults" is-config="true" duration-ms="145" started-at="2018-08-24T13:35:37Z" finished-at="2018-08-24T13:35:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="SKIP" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SuiteOne.TC004@13deb50e]" name="SuiteOneCaseTwoTest" duration-ms="0" started-at="2018-08-10T20:16:19Z" data-provider="TestData" finished-at="2018-08-10T20:16:19Z">
+        <test-method status="SKIP" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SuiteOne.TC010@13deb50e]" name="SuiteOneCaseTwoTest" duration-ms="33" started-at="2018-08-24T13:35:37Z" data-provider="TestData" finished-at="2018-08-24T13:35:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[durga@26july.com]]>
+                <![CDATA[CSR]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[durga123]]>
+                <![CDATA[password]]>
               </value>
             </param>
             <param index="2">
@@ -289,12 +304,12 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Alabama]]>
+                <![CDATA[Florida]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Optometry]]>
+                <![CDATA[Nurse Practitioner]]>
               </value>
             </param>
             <param index="5">
@@ -454,7 +469,7 @@
             </param>
             <param index="36">
               <value>
-                <![CDATA[User]]>
+                <![CDATA[CSR]]>
               </value>
             </param>
             <param index="37">
@@ -509,10 +524,25 @@
             </param>
             <param index="47">
               <value>
-                <![CDATA[]]>
+                <![CDATA[ankxceed@test.com]]>
               </value>
             </param>
             <param index="48">
+              <value>
+                <![CDATA[welcome2018]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="51">
               <value>
                 <![CDATA[]]>
               </value>
@@ -524,7 +554,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: DataToRun for row number 1 Is No Or Blank. So Skipping Its Execution.
-	at SuiteOne.TC004.SuiteOneCaseTwoTest(TC004.java:109)
+	at SuiteOne.TC010.SuiteOneCaseTwoTest(TC010.java:128)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -555,20 +585,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:SuiteOne.TC004@13deb50e]" name="reporterDataResults" is-config="true" duration-ms="333" started-at="2018-08-10T20:16:19Z" finished-at="2018-08-10T20:16:20Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:SuiteOne.TC010@13deb50e]" name="reporterDataResults" is-config="true" duration-ms="191" started-at="2018-08-24T13:35:37Z" finished-at="2018-08-24T13:35:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="SKIP" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SuiteOne.TC004@13deb50e]" name="SuiteOneCaseTwoTest" duration-ms="4" started-at="2018-08-10T20:16:20Z" data-provider="TestData" finished-at="2018-08-10T20:16:20Z">
+        <test-method status="SKIP" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SuiteOne.TC010@13deb50e]" name="SuiteOneCaseTwoTest" duration-ms="6" started-at="2018-08-24T13:35:37Z" data-provider="TestData" finished-at="2018-08-24T13:35:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[durga@26july.com]]>
+                <![CDATA[AcceptanceAdmin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[durga123]]>
+                <![CDATA[Berkshire#12]]>
               </value>
             </param>
             <param index="2">
@@ -578,17 +608,17 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Alabama]]>
+                <![CDATA[Florida]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Optometry]]>
+                <![CDATA[Nurse Practitioner]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Audiology Technician/Technologist]]>
+                <![CDATA[Acute Critical Care]]>
               </value>
             </param>
             <param index="6">
@@ -603,7 +633,7 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[Self-Employed]]>
+                <![CDATA[Student]]>
               </value>
             </param>
             <param index="9">
@@ -743,7 +773,7 @@
             </param>
             <param index="36">
               <value>
-                <![CDATA[User]]>
+                <![CDATA[CSR]]>
               </value>
             </param>
             <param index="37">
@@ -798,10 +828,25 @@
             </param>
             <param index="47">
               <value>
-                <![CDATA[]]>
+                <![CDATA[ankxceed@test.com]]>
               </value>
             </param>
             <param index="48">
+              <value>
+                <![CDATA[welcome2018]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="51">
               <value>
                 <![CDATA[]]>
               </value>
@@ -813,7 +858,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: DataToRun for row number 2 Is No Or Blank. So Skipping Its Execution.
-	at SuiteOne.TC004.SuiteOneCaseTwoTest(TC004.java:109)
+	at SuiteOne.TC010.SuiteOneCaseTwoTest(TC010.java:128)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -844,15 +889,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:SuiteOne.TC004@13deb50e]" name="reporterDataResults" is-config="true" duration-ms="344" started-at="2018-08-10T20:16:20Z" finished-at="2018-08-10T20:16:20Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:SuiteOne.TC010@13deb50e]" name="reporterDataResults" is-config="true" duration-ms="243" started-at="2018-08-24T13:35:37Z" finished-at="2018-08-24T13:35:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SuiteOne.TC004@13deb50e]" name="closeBrowser" is-config="true" duration-ms="341" started-at="2018-08-10T20:16:20Z" finished-at="2018-08-10T20:16:20Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SuiteOne.TC010@13deb50e]" name="closeBrowser" is-config="true" duration-ms="104" started-at="2018-08-24T13:35:37Z" finished-at="2018-08-24T13:35:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- SuiteOne.TC004 -->
+      </class> <!-- SuiteOne.TC010 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

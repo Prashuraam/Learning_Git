@@ -79,7 +79,7 @@ public class TC004 extends SuiteOneBase{
 		//To Initialize Firefox browser.
 		loadWebBrowser();
 		Add_Log.info("WebBrowser is instantiated");
-		driver.get(Param.getProperty("siteURL"));		
+		driver.navigate().to(Param.getProperty("siteURL"));		
 		Add_Log.info("WebBrowser is Launched");
 	}
 	

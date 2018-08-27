@@ -1,48 +1,112 @@
-2018-08-10 20:14:37,656 - rootLogger - INFO - All Excel Files Initialised successfully.
-2018-08-10 20:14:37,656 - rootLogger - INFO - Param.properties file loaded successfully.
-2018-08-10 20:14:41,813 - rootLogger - INFO - Chrome Driver Instance loaded successfully.
-2018-08-10 20:14:42,991 - rootLogger - INFO - WebBrowser is instantiated
-2018-08-10 20:14:48,294 - rootLogger - INFO - WebBrowser is Launched
-2018-08-10 20:14:50,143 - rootLogger - INFO - Launch Password  Value Entered
-2018-08-10 20:14:55,923 - rootLogger - INFO - Clicked on Submt button
-2018-08-10 20:14:57,902 - rootLogger - INFO - Clicked on SignIn button
-2018-08-10 20:14:59,238 - rootLogger - INFO - User Name  Value Entered
-2018-08-10 20:14:59,536 - rootLogger - INFO - Password  Value Entered
-2018-08-10 20:14:59,696 - rootLogger - INFO - Clicked on Signn Button
-2018-08-10 20:15:04,100 - rootLogger - INFO - Clicked on Get a Quote Button at Home Page
-2018-08-10 20:15:04,100 - rootLogger - INFO - Clicked on Get A New Quote Button
-2018-08-10 20:15:05,528 - rootLogger - INFO - Select Prod 1
-2018-08-10 20:15:10,516 - rootLogger - INFO - Practice State Value Alabama Selected Sucessfully
-2018-08-10 20:15:12,889 - rootLogger - INFO - Field_Of_Profession Value Optometry Selected Sucessfully
-2018-08-10 20:15:15,183 - rootLogger - INFO - Employment_Status Value Student Selected Sucessfully
-2018-08-10 20:15:15,461 - rootLogger - INFO - Enter_the_School_name  Value Entered
-2018-08-10 20:15:17,782 - rootLogger - INFO - Anticipated_Month Value June Selected Sucessfully
-2018-08-10 20:15:18,071 - rootLogger - INFO - Anticipated_Year  Value Entered
-2018-08-10 20:15:18,427 - rootLogger - INFO - Effective_Date  Value Entered
-2018-08-10 20:15:18,593 - rootLogger - INFO - Buying for Self
-2018-08-10 20:15:18,821 - rootLogger - INFO - Clicked on Get_My_Quote_Button
-2018-08-10 20:15:39,191 - rootLogger - INFO - Clicked on Click_on_BuyNow_Button
-2018-08-10 20:15:41,637 - rootLogger - INFO - User_Name  Value Entered
-2018-08-10 20:15:41,959 - rootLogger - INFO - Last_Name  Value Entered
-2018-08-10 20:15:42,239 - rootLogger - INFO - Street_Address  Value Entered
-2018-08-10 20:15:42,519 - rootLogger - INFO - City_Nmae  Value Entered
-2018-08-10 20:15:44,715 - rootLogger - INFO - State_name Value AZ Selected Sucessfully
-2018-08-10 20:15:45,264 - rootLogger - INFO - Zip_Code  Value Entered
-2018-08-10 20:15:45,697 - rootLogger - INFO - Clicked on Click_on_I_Agree_to_the_Terms_&_Conditions_Box
-2018-08-10 20:15:45,909 - rootLogger - INFO - Clicked on Click_on_Enter_Payment_Information_Button
-2018-08-10 20:15:47,471 - rootLogger - INFO - Card_Number  Value Entered
-2018-08-10 20:15:47,749 - rootLogger - INFO - Cvv_Number  Value Entered
-2018-08-10 20:15:48,017 - rootLogger - INFO - Expiration_Date  Value Entered
-2018-08-10 20:15:48,317 - rootLogger - INFO - Card_Holder_First_Name  Value Entered
-2018-08-10 20:15:48,561 - rootLogger - INFO - Card_Holder_Last_Name  Value Entered
-2018-08-10 20:15:48,858 - rootLogger - INFO - Street_Address  Value Entered
-2018-08-10 20:15:49,179 - rootLogger - INFO - City_Name  Value Entered
-2018-08-10 20:15:51,454 - rootLogger - INFO - State_Name Value MA Selected Sucessfully
-2018-08-10 20:15:51,875 - rootLogger - INFO - ZipCode  Value Entered
-2018-08-10 20:15:52,052 - rootLogger - INFO - Clicked on Click_on_Buy_policy
-2018-08-10 20:15:54,373 - rootLogger - INFO - Clicked on Click_on_Buy_Policy_in_Alert_Button
-2018-08-10 20:15:58,641 - rootLogger - INFO - Clicked on Download Policy Documents button 
-2018-08-10 20:16:01,827 - rootLogger - INFO - Policy Number Captured
-2018-08-10 20:16:01,831 - rootLogger - INFO - Generated PolicyNumber - 47-QAA-004552-01
-2018-08-10 20:16:02,538 - rootLogger - INFO - Clicked on Policy Download Button
-2018-08-10 20:16:18,712 - rootLogger - INFO - Clicked on Sign Out
+2018-08-24 13:29:16,778 - rootLogger - INFO - All Excel Files Initialised successfully.
+2018-08-24 13:29:16,779 - rootLogger - INFO - Param.properties file loaded successfully.
+2018-08-24 13:29:25,462 - rootLogger - INFO - Firefox Driver Instance loaded successfully.
+2018-08-24 13:29:25,753 - rootLogger - INFO - WebBrowser is instantiated
+2018-08-24 13:29:27,880 - rootLogger - INFO - WebBrowser is Launched
+2018-08-24 13:29:28,297 - rootLogger - INFO - Launch Password  Value Entered
+2018-08-24 13:29:35,607 - rootLogger - INFO - Clicked on Submt button
+2018-08-24 13:29:35,830 - rootLogger - INFO - Clicked on SignIn button
+2018-08-24 13:29:47,409 - rootLogger - INFO - User Name  Value Entered
+2018-08-24 13:29:48,640 - rootLogger - INFO - Password  Value Entered
+2018-08-24 13:29:48,848 - rootLogger - INFO - Clicked on Signn Button
+2018-08-24 13:29:55,176 - rootLogger - INFO - Clicked on User Info
+2018-08-24 13:29:55,388 - rootLogger - INFO - Clicked on Admin Buy DashBoard
+2018-08-24 13:29:56,751 - rootLogger - INFO - Email address  Value Entered
+2018-08-24 13:29:56,993 - rootLogger - INFO - Clicked on Admin Dashboard Search Button
+2018-08-24 13:29:59,169 - rootLogger - INFO - Clicked on Select saved Quote
+2018-08-24 13:30:02,393 - rootLogger - INFO - Clicked on Buy Quote
+2018-08-24 13:30:25,157 - rootLogger - INFO - Clicked on Click_on_BuyNow_Button
+2018-08-24 13:30:27,507 - rootLogger - INFO - User_Name  Value Entered
+2018-08-24 13:30:27,915 - rootLogger - INFO - Last_Name  Value Entered
+2018-08-24 13:30:28,267 - rootLogger - INFO - Professional Designation  Value Entered
+2018-08-24 13:30:28,626 - rootLogger - INFO - Street_Address  Value Entered
+2018-08-24 13:30:29,262 - rootLogger - INFO - City_Nmae  Value Entered
+2018-08-24 13:30:31,380 - rootLogger - INFO - State_name Value AZ Selected Sucessfully
+2018-08-24 13:30:31,940 - rootLogger - INFO - Zip_Code  Value Entered
+2018-08-24 13:30:32,302 - rootLogger - INFO - Clicked on One_Time_Payment
+2018-08-24 13:30:32,918 - rootLogger - INFO - Clicked on Click_on_Enter_Payment_Information_Button
+2018-08-24 13:30:34,698 - rootLogger - INFO - Card_Number  Value Entered
+2018-08-24 13:30:35,092 - rootLogger - INFO - Cvv_Number  Value Entered
+2018-08-24 13:30:35,582 - rootLogger - INFO - Expiration_Date  Value Entered
+2018-08-24 13:30:36,053 - rootLogger - INFO - Card_Holder_First_Name  Value Entered
+2018-08-24 13:30:36,459 - rootLogger - INFO - Card_Holder_Last_Name  Value Entered
+2018-08-24 13:30:36,915 - rootLogger - INFO - Street_Address  Value Entered
+2018-08-24 13:30:37,263 - rootLogger - INFO - City_Name  Value Entered
+2018-08-24 13:30:39,650 - rootLogger - INFO - State_Name Value MA Selected Sucessfully
+2018-08-24 13:30:40,072 - rootLogger - INFO - ZipCode  Value Entered
+2018-08-24 13:30:40,320 - rootLogger - INFO - Clicked on Click_on_Buy_policy
+2018-08-24 13:30:44,020 - rootLogger - INFO - Clicked on Click_on_Buy_Policy_in_Alert_Button
+2018-08-24 13:30:48,950 - rootLogger - INFO - Clicked on ViewActivePolicyButton button 
+2018-08-24 13:30:59,088 - rootLogger - INFO - Policy Number Captured
+2018-08-24 13:30:59,088 - rootLogger - INFO - Generated PolicyNumber - 47-QAA-004813-01
+2018-08-24 13:30:59,571 - rootLogger - INFO - Clicked on Sign Out
+2018-08-24 13:31:07,835 - rootLogger - INFO - Clicked on SignIn button
+2018-08-24 13:31:11,514 - rootLogger - INFO - User Name  Value Entered
+2018-08-24 13:31:11,855 - rootLogger - INFO - Password  Value Entered
+2018-08-24 13:31:12,015 - rootLogger - INFO - Clicked on Signn Button
+2018-08-24 13:31:19,696 - rootLogger - INFO - Clicked on TC Check Box Element
+2018-08-24 13:31:21,926 - rootLogger - INFO - Clicked on Submit Button Element
+2018-08-24 13:31:27,133 - rootLogger - INFO - Clicked on Policy Management Link
+2018-08-24 13:31:29,709 - rootLogger - INFO - Clicked on Sign Out
+2018-08-24 13:31:55,553 - rootLogger - INFO - Clicked on SignIn button
+2018-08-24 13:31:58,929 - rootLogger - INFO - User Name  Value Entered
+2018-08-24 13:31:59,320 - rootLogger - INFO - Password  Value Entered
+2018-08-24 13:31:59,503 - rootLogger - INFO - Clicked on Signn Button
+2018-08-24 13:32:04,629 - rootLogger - INFO - Clicked on System Admin Drop Down
+2018-08-24 13:32:05,489 - rootLogger - INFO - Clicked on Renewal and Payment Testing
+2018-08-24 13:32:07,957 - rootLogger - INFO - Policy Number  Value Entered
+2018-08-24 13:32:08,274 - rootLogger - INFO - Clicked on Search button
+2018-08-24 13:32:18,526 - rootLogger - INFO - Clicked on Policy No to Renew
+2018-08-24 13:32:21,669 - rootLogger - INFO - Clicked on T-120 Blue Button Element
+2018-08-24 13:32:24,861 - rootLogger - INFO - Clicked on Policy No to Renew
+2018-08-24 13:32:27,998 - rootLogger - INFO - Clicked on Phase 1 Green Button Element
+2018-08-24 13:32:33,105 - rootLogger - INFO - Clicked on Policy No to Renew Element
+2018-08-24 13:32:36,209 - rootLogger - INFO - Clicked on T-95 Approve Button Element
+2018-08-24 13:32:41,337 - rootLogger - INFO - Clicked on Policy No to Renew Element
+2018-08-24 13:32:44,453 - rootLogger - INFO - Clicked on T-95 Approve Button Element
+2018-08-24 13:32:47,570 - rootLogger - INFO - Clicked on Sign Out Element
+2018-08-24 13:33:14,411 - rootLogger - INFO - Clicked on SignIn button
+2018-08-24 13:33:17,763 - rootLogger - INFO - User Name  Value Entered
+2018-08-24 13:33:17,995 - rootLogger - INFO - Password  Value Entered
+2018-08-24 13:33:18,145 - rootLogger - INFO - Clicked on Signn Button
+2018-08-24 13:33:26,459 - rootLogger - INFO - Policy Renewal Number Captured
+2018-08-24 13:33:26,460 - rootLogger - INFO - Generated PolicyNumber - 47-QAA-004813-02
+2018-08-24 13:33:26,886 - rootLogger - INFO - Clicked on Looks Good
+2018-08-24 13:33:30,054 - rootLogger - INFO - Clicked on Sign Out
+2018-08-24 13:33:56,422 - rootLogger - INFO - Clicked on SignIn button
+2018-08-24 13:33:59,240 - rootLogger - INFO - User Name  Value Entered
+2018-08-24 13:33:59,465 - rootLogger - INFO - Password  Value Entered
+2018-08-24 13:33:59,611 - rootLogger - INFO - Clicked on Signn Button
+2018-08-24 13:34:04,400 - rootLogger - INFO - Clicked on System Admin Drop Down
+2018-08-24 13:34:05,203 - rootLogger - INFO - Clicked on Email Template
+2018-08-24 13:34:07,446 - rootLogger - INFO - Clicked on Second and Third Renewal Email Testing Tab
+2018-08-24 13:34:08,356 - rootLogger - INFO - Clicked on Click on Search Button To enter Policy Number
+2018-08-24 13:34:10,675 - rootLogger - INFO - Policy Number  Value Entered
+2018-08-24 13:34:12,851 - rootLogger - INFO - Clicked on Button to execute the search
+2018-08-24 13:34:16,070 - rootLogger - INFO - Clicked on Select Policy Number
+2018-08-24 13:34:18,277 - rootLogger - INFO - Clicked on T-30 Notification BUtton
+2018-08-24 13:34:21,565 - rootLogger - INFO - Clicked on Click on Search Button To enter Policy Number
+2018-08-24 13:34:23,897 - rootLogger - INFO - Policy Number  Value Entered
+2018-08-24 13:34:26,110 - rootLogger - INFO - Clicked on Button to execute the search
+2018-08-24 13:34:29,330 - rootLogger - INFO - Clicked on Select Policy Number
+2018-08-24 13:34:31,529 - rootLogger - INFO - Clicked on T-7 Notification Button
+2018-08-24 13:34:34,023 - rootLogger - INFO - Clicked on Traditional Tab
+2018-08-24 13:34:36,359 - rootLogger - INFO - Policy Number  Value Entered
+2018-08-24 13:34:39,660 - rootLogger - INFO - Clicked on Select Policy at Row
+2018-08-24 13:34:41,960 - rootLogger - INFO - Clicked on T-0 Blue Button
+2018-08-24 13:34:45,149 - rootLogger - INFO - Clicked on Select Policy at Row
+2018-08-24 13:34:48,390 - rootLogger - INFO - Clicked on T-0 Green Button
+2018-08-24 13:34:58,617 - rootLogger - INFO - Clicked on Payment Tab
+2018-08-24 13:35:02,095 - rootLogger - INFO - Policy Number at Payment  Value Entered
+2018-08-24 13:35:02,306 - rootLogger - INFO - Clicked on Search Button
+2018-08-24 13:35:05,573 - rootLogger - INFO - Clicked on Select Policy at Payment Row
+2018-08-24 13:35:08,817 - rootLogger - INFO - Clicked on Bill payment Button
+2018-08-24 13:35:16,036 - rootLogger - INFO - Clicked on System Admin Drop Down
+2018-08-24 13:35:16,708 - rootLogger - INFO - Clicked on Email Template
+2018-08-24 13:35:23,908 - rootLogger - INFO - Clicked on Adminstrative Task Tab
+2018-08-24 13:35:26,104 - rootLogger - INFO - Clicked on Scheduled event Button
+2018-08-24 13:35:29,305 - rootLogger - INFO - Clicked on Sent Tab
+2018-08-24 13:35:31,792 - rootLogger - INFO - Subject Line  Value Entered
+2018-08-24 13:35:34,268 - rootLogger - INFO - Policy Number  Value Entered
+2018-08-24 13:35:36,786 - rootLogger - INFO - Clicked on Sign Out
+2018-08-24 13:35:36,786 - rootLogger - INFO - Sign out as an admin
